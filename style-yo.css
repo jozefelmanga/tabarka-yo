@@ -1,0 +1,95 @@
+header {line-height: 0.1;
+      position: relative;
+}
+body {width: 900px;
+      
+       display: block;
+       margin: auto;
+       background-image: url(beige026.gif);
+       color: #181818;
+      }
+    
+
+/*entet*/
+#titre {    width: 350px ;
+            font-family: Arial, Helvetica, sans-serif;
+            float:inline;
+            display:block;
+            text-transform:capitalize;
+}
+header h1 {font-size: 60px;
+        text-shadow: 0px 4px 4px grey;
+        font-weight:bold ;
+        }
+header h2 {font-size: 20px;font-weight:bold ;
+      
+}
+#nav {width: 500px ;
+      margin-left:30px ;
+      word-spacing: 15px;
+      padding-bottom: 3px; 
+      text-align:right;
+      float:right;
+      position: relative;
+      top: -20px;
+       }
+td {vertical-align: bottom;}
+
+#nav a:link {text-decoration: none;}
+#nav a:hover {color: #760001;
+              text-decoration: underline 3px #760001;}
+#bg-img {   background-image: url(tabarka.jpg);
+             width: 900px;
+             height: 200px;
+            border-radius: 5px;
+            box-shadow: 0px 6px 6px #1c1a19;
+            
+            margin-bottom: 20px;
+            float:none;
+            
+         ;}
+
+/*section*/
+#article {width: 625px ;
+          margin: 7px;
+          text-align: justify;
+          font-size:0.8em;
+          padding-top:10px;
+          margin-bottom: 30px;
+          }
+#article img {width: 207px;
+             height: 149px;}
+#bloc {width: 235px;
+       background-color: #706b64;
+       float:right;
+       border-radius: 5px;
+       padding: 10px;
+       box-shadow: 0px 2px 5px #1c1a19;
+       color: white;
+       float: right;
+       font-size:0.9em;
+      word-spacing: 3px;
+      }
+
+/*pied*/
+footer{background-color: rgb(0, 0, 0,0.2);
+       border-radius: 5px;
+       margin: 20px 0px 20px 0px;
+       box-shadow: 0px 2px 5px #1c1a19;
+       text-align: center;
+       
+      }
+.fb img {position:relative;
+            width: 40px;
+            height:40px;
+           }
+
+
+/*else*/
+p ,h3 {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+img:not(#me) {width: 207px;
+              height: 149px;}
+a:not(#not) {font-size:1.3em;
+             text-transform: uppercase;}
+h1:not(#one){text-transform: uppercase;}

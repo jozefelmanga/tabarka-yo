@@ -1,0 +1,144 @@
+﻿/* Eléments principaux de la page */
+
+body
+{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+    background: url(beige026.gif) repeat;
+    width: 900px; 
+    margin: auto; 
+}
+
+section h1, nav a
+{
+    font-family: 'Trebuchet MS', serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/* Header */
+
+header h1
+{
+    font-family: Arial, serif;//
+    font-weight: bold;
+    font-size: 60px;//
+    text-shadow:0px 4px 4px grey;//
+    margin-bottom: 0px;
+}
+
+header h2
+{
+    font-family: Arial, serif;
+    font-size: 20px;//
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+#titre_principal {display:inline-block; vertical-align:bottom;width:350px;}//
+
+/* Navigation */
+
+nav //
+{
+    display: inline-block; //
+	vertical-align:bottom; //
+    width: 500px; //
+    text-align: right; //
+	margin-left:30px; //
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li //
+{
+    display: inline-block; //
+    margin-right: 15px;
+}
+
+nav a //
+{
+    font-size: 1.3em;
+    color: #181818; //
+    padding-bottom: 3px;
+    text-decoration: none; //
+}
+
+nav a:hover //
+{
+    color: #760001; //
+    border-bottom: 3px solid #760001; //
+}
+/* Bannière */
+
+#banniere_image//
+{
+    margin-top: 0px; width:890px;//
+    height: 200px;//
+    border-radius: 5px;//
+    background: url(tabarka.jpg) repeat;//
+    box-shadow: 0px 6px 6px #1c1a19;//
+    margin-bottom: 25px;
+}
+
+/* Corps */
+
+article, aside//
+{
+    display: inline-block;//
+    vertical-align: top;//
+    text-align: justify;//
+}
+
+article
+{
+    width: 625px;//
+    margin-right: 7px;
+}
+
+article p
+{
+    font-size: 0.8em;//
+}
+article img//
+{
+    width:207px;//
+	height:149px;//
+}
+aside
+{//
+    width: 235px;//
+    background-color: #706b64;//
+    box-shadow: 0px 2px 5px #1c1a19;//
+    border-radius: 5px;//
+    padding: 10px;//
+    color: white;//
+    font-size: 0.9em;//
+}
+/* Footer */
+
+footer//
+{
+	background-color:rgba(0,0,0,0.2);//
+	border-radius:5px;  //
+	box-shadow: 0px 2px 5px #1c1a19;//
+	margin-top: 20px;//
+	margin-bottom:20px;//
+}
+
+#foot
+{
+width:100px;
+margin:auto;
+}
+
+footer img{//
+	
+	height:40px;//
+	width:40px;//
+}
+
+
